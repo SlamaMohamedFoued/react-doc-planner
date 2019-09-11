@@ -1,0 +1,42 @@
+.patient-box {
+  background: #00b39b;
+}
+
+.doctor-box {
+  background-color: #3d83df;
+}
+
+.doctor-box,
+.patient-box {
+  padding: 30px;
+  border-radius: 15px;
+  height: 400px;
+  width: 540px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.doctor-box > h6,
+.patient-box > h6 {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.doctor-box > p,
+.patient-box > p {
+  color: #fff;
+  font-size: 1.625em;
+}
+
+.patient-box > div > img,
+.doctor-box > div > img {
+  height: 250px;
+  margin-left: 0px;
+}
+
+.select-image {
+  display: flex;
+}
+
+.select {
+  min-width: 200px;
+}

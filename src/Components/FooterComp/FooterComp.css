@@ -1,0 +1,8 @@
+.footer-line-1,
+.footer-line-2 {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #747474;
+}

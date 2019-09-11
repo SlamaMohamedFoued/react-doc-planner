@@ -1,0 +1,22 @@
+.brand {
+  margin-left: 18%;
+}
+
+.navItems {
+  margin-right: 18%;
+  float: right;
+  font-size: 1.1rem;
+  color: #ababab;
+  font-weight: 500;
+}
+
+.stickyNav {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.shadow-header {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+}
